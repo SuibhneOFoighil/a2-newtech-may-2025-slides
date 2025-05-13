@@ -5,7 +5,7 @@ This is a slidedeck created from a Notion export using reveal.js.
 ## How to Run the Presentation
 
 1. Navigate to this directory in your terminal
-2. Run `npm start` to start the HTTP server and open the presentation in your browser
+2. Run `bun start` to start the HTTP server and open the presentation in your browser (or another package mananger like NPM)
 
 ## Navigation Controls
 
