@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx http-server -o"
+    "start": "bunx http-server -o"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@fontsource/indie-flower": "^5.2.5",
     "reveal.js": "^5.2.1"
   },
   "devDependencies": {

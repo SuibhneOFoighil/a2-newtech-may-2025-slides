@@ -6,6 +6,7 @@
   <title>Molus Metaphors</title>
   <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css">
   <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/white.css">
+  <link rel="stylesheet" href="node_modules/@fontsource/indie-flower/index.css">
   <style>
     .reveal .slides {
       text-align: left;
@@ -23,8 +24,9 @@
       padding: 0 10px;
     }
     .reveal .slide-image img {
-      max-height: 400px;
-      width: auto;
+      width: 320px;
+      height: 240px;
+      object-fit: contain;
       display: block;
       margin: 0 auto;
     }
@@ -33,6 +35,9 @@
       font-style: italic;
       text-align: center;
       margin-top: 5px;
+    }
+    body, .reveal, .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6, .reveal p, .reveal .caption {
+      font-family: 'Indie Flower', cursive !important;
     }
   </style>
 </head>

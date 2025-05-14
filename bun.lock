@@ -4,6 +4,7 @@
     "": {
       "name": "molus-metaphors-slideshow",
       "dependencies": {
+        "@fontsource/indie-flower": "^5.2.5",
         "reveal.js": "^5.2.1",
       },
       "devDependencies": {
@@ -12,6 +13,8 @@
     },
   },
   "packages": {
+    "@fontsource/indie-flower": ["@fontsource/indie-flower@5.2.5", "", {}, "sha512-fc+LKSp3VmEkkK/GoQLdT5ZM+hT8uhtuwE+5bDhNTpxNPS2s9kv7kYqnpT8FpqLuBJUa1EIqFmgfKQmn6cN1uw=="],
+
     "ansi-styles": ["ansi-styles@4.3.0", "", { "dependencies": { "color-convert": "^2.0.1" } }, "sha512-zbB9rCJAT1rbjiVDb2hqKFHNYLxgtk8NURxZ3IZwD3F6NtxbXZQCnnSi1Lkx+IDohdPlFp222wVALIheZJQSEg=="],
 
     "async": ["async@3.2.6", "", {}, "sha512-htCUDlxyyCLMgaM3xXg0C0LW2xqfuQ6p05pCEIsXuyQ+a1koYKTuBMzRNwmybfLgvJDMd0r1LTn4+E0Ti6C2AA=="],
